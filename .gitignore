@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual environment ----
+.venv/
+venv/
+ENV/
+
+# ---- Tooling / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# ---- Logs / temp ----
+*.log
+.tmp/
+.cache/
+
+# ---- OS ----
+Thumbs.db
+
+# ---- Coverage / test artifacts (future-proof) ----
+.coverage
+htmlcov/
+pytest_cache/
+
+# ---- Local config (never commit) ----
+.env
+.env.*
